@@ -3,7 +3,7 @@ package baseline;
 import java.util.ArrayList;
 import java.util.List;
 
-public class taskManagement {
+public class taskManager {
     List<ToDoListFunctions> manager = new ArrayList<>();
 
     public void deleteLists(ToDoListFunctions s){

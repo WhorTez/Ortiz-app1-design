@@ -1,6 +1,6 @@
 package baseline;
 
-public class taskSpecs {
+public class Item {
     String task;
     String description;
     String date;
@@ -21,7 +21,7 @@ public class taskSpecs {
         return null;
     }
 
-    public taskSpecs createTask(){
+    public Item createTask(){
         //will set the name, date and description for a new task
         //completion is false by default
         return null;

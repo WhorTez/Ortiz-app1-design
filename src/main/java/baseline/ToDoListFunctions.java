@@ -5,7 +5,7 @@ import java.util.ArrayList;
 
 public class ToDoListFunctions {
     String title;
-    List<taskSpecs> taskList = new ArrayList<>();
+    List<Item> taskList = new ArrayList<>();
 
     public String getTitle() {
         //gets title of toDoList from user
@@ -13,11 +13,11 @@ public class ToDoListFunctions {
         return null;
     }
 
-    public void deleteItem(taskSpecs item){
+    public void deleteItem(Item item){
 
     }
 
-    public String addItem(taskSpecs newItem){
+    public String addItem(Item newItem){
         //adds a new item to the list
         return null;
     }
