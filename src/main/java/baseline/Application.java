@@ -14,11 +14,10 @@ import java.util.Objects;
 
 public class Application extends javafx.application.Application {
         @Override
-
         public void start (Stage stage) throws Exception{
 
         Parent root =
-                FXMLLoader.load(Objects.requireNonNull(getClass().getResource("MainMenu.fxml")));
+                FXMLLoader.load(getClass().getResource("MainMenu.fxml"));
         Scene scene = new Scene(root); // attaches scene graph to scene
         stage.setTitle("ToDo Lists");
         stage.setScene(scene); //Attaches scene to stage
